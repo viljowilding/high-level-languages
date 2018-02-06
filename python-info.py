@@ -18,8 +18,10 @@ def whatsYourName(msg):
 	return temp
 
 name = whatsYourName("What's your name, user?\nName: ")
-if name == ""
-print("{} is such a lovely name!".format(name))
+if name == "Albert":
+	print("Hey Albert!")
+else:
+	print("{} is such a lovely name!".format(name))
 
 '''
 The Philosophy of Python:
@@ -29,4 +31,3 @@ The Philosophy of Python:
 - Complex is better than complicated
 - Readability counts
 '''
-
